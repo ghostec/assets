@@ -1,0 +1,24 @@
+<scene>
+	<shader>
+		<name>standard</name>
+	</shader>
+	<texture>
+		<name>wooden-crate</name>
+		<file>wooden-crate.jpg</file>
+	</texture>
+	<model_asset>
+		<name>cube</name>
+		<file>cube.obj</file>
+		<texture>wooden-crate</texture>
+		<shader>standard</shader>
+	</model_asset>
+	<model_instance>
+		<name>cube</name>
+		<model_asset>cube</model_asset>
+	</model_instance>
+	<camera>
+		<name>camera</name>
+		<position x="-2" y="3" z="8" />
+		<target x="0" y="0" z="0" />
+	</camera>
+</scene>
