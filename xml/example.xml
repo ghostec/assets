@@ -9,8 +9,13 @@
 	<model_asset>
 		<name>cube</name>
 		<file>cube.obj</file>
+		<type>MODEL_ASSET_3D</type>
 		<texture>wooden-crate</texture>
-		<shader>standard</shader>
+		<shaders>
+			<shader>
+				<name>standard</name>
+			</shader>
+		</shaders>
 	</model_asset>
 	<model_instance>
 		<name>cube</name>

@@ -1,0 +1,18 @@
+<shader>
+	<name>standard</name>
+</shader>
+<texture>
+	<name>wooden-crate</name>
+	<file>wooden-crate.jpg</file>
+</texture>
+<model_asset>
+	<name>cube</name>
+	<file>cube.obj</file>
+	<type>MODEL_ASSET_2D</type>
+	<texture>wooden-crate</texture>
+	<shaders>
+		<shader>
+			<name>standard</name>
+		</shader>
+	</shaders>
+</model_asset>
