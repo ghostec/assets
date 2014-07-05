@@ -6,21 +6,16 @@
 		<name>wooden-crate</name>
 		<file>wooden-crate.jpg</file>
 	</texture>
-	<model_asset>
+	<mesh>
 		<name>cube</name>
 		<file>cube.obj</file>
-		<type>MODEL_ASSET_3D</type>
-		<texture>wooden-crate</texture>
-		<shaders>
-			<shader>
-				<name>standard</name>
-			</shader>
-		</shaders>
-	</model_asset>
-	<model_instance>
+	</mesh>
+	<model>
 		<name>cube</name>
-		<model_asset>cube</model_asset>
-	</model_instance>
+		<mesh>cube</mesh>
+		<shader>standard</shader>
+		<texture>wooden-crate</texture>
+	</model>
 	<camera>
 		<name>camera</name>
 		<position x="-2" y="3" z="8" />

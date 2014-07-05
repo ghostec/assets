@@ -1,0 +1,32 @@
+<gui_scene>
+	<shader>
+		<name>gui</name>
+	</shader>
+	<texture>
+		<name>circle</name>
+		<file>circle.png</file>
+	</texture>
+	<mesh>
+		<name>square</name>
+		<file>square.obj</file>
+	</mesh>
+	<gui_element>
+		<name>gui_window</name>
+		<mesh>square</mesh>
+		<dimensions width="800" height="600" />
+		<offset x="0" y="0" />
+		<offset_percent x="0" y="0" />
+	</gui_element>
+	<gui_element>
+		<name>gui_element</name>
+		<mesh>square</mesh>
+		<parent name="gui_window" percent="0.25" />
+		<offset x="0" y="0" />
+		<offset_percent x="0" y="0" />
+		<state>
+			<name>normal</name>
+			<shader>gui</shader>
+			<texture>circle</texture>
+		</state>
+	</gui_element>
+</gui_scene>
