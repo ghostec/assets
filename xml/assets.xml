@@ -1,18 +1,24 @@
 <shader>
+	<name>gui</name>
+</shader>
+<shader>
 	<name>standard</name>
 </shader>
+<texture>
+	<name>circle</name>
+	<file>circle.png</file>
+</texture>
 <texture>
 	<name>wooden-crate</name>
 	<file>wooden-crate.jpg</file>
 </texture>
-<model_asset>
+<mesh>
 	<name>cube</name>
 	<file>cube.obj</file>
-	<type>MODEL_ASSET_2D</type>
+</mesh>
+<model>
+	<name>cube</name>
+	<mesh>cube</mesh>
+	<shader>standard</shader>
 	<texture>wooden-crate</texture>
-	<shaders>
-		<shader>
-			<name>standard</name>
-		</shader>
-	</shaders>
-</model_asset>
+</model>
