@@ -1,24 +1,13 @@
-<scene>
-	<shader>
-		<name>standard</name>
-	</shader>
-	<texture>
-		<name>wooden-crate</name>
-		<file>wooden-crate.jpg</file>
-	</texture>
-	<mesh>
-		<name>cube</name>
-		<file>cube.obj</file>
-	</mesh>
-	<model>
-		<name>cube</name>
-		<mesh>cube</mesh>
-		<shader>standard</shader>
-		<texture>wooden-crate</texture>
-	</model>
-	<camera>
-		<name>camera</name>
-		<position x="-2" y="3" z="8" />
-		<target x="0" y="0" z="0" />
-	</camera>
-</scene>
+<model>
+	<name>cube</name>
+</model>
+<light>
+	<position x="-2" y="3" z="2" />
+	<color r="1.0" g="1.0" b="1.0" />
+	<attenuation value="0.1"/>
+	<ambient_coefficient value="0.008" />
+</light>
+<camera>
+	<position x="-2" y="3" z="8" />
+	<target x="0" y="0" z="0" />
+</camera>
