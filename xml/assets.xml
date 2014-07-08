@@ -4,6 +4,9 @@
 <shader>
 	<name>standard</name>
 </shader>
+<shader>
+	<name>standard2</name>
+</shader>
 <texture>
 	<name>circle</name>
 	<file>circle.png</file>
