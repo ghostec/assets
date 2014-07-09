@@ -4,6 +4,8 @@ in vec3 vPosition;
 in vec3 vUV;
 in vec3 vNormal;
 
+out vec2 fragTexCoord;
+
 uniform mat4 Model;
 
 uniform struct Camera
@@ -15,5 +17,6 @@ uniform struct Camera
 void main() 
 {
   // Pass some variables to the fragment shader
+  fragTexCoord = vec2( vUV.x, vUV.y );
   gl_Position = camera.proj * camera.view * Model * vec4(vPosition,1.0);
 }
