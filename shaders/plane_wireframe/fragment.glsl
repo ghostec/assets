@@ -54,5 +54,5 @@ void main()
     
   //final color (after gamma correction)
   vec3 gamma = vec3(1.0/2.2);
-  finalColor = (edgeIntensity * vec4(0.01,0.01,0.01,1.0)) + ((1.0-edgeIntensity) * vec4(1.0, 1.0, 1.0, 0.0));
+  finalColor = (edgeIntensity * vec4(0.01,0.01,0.01,1.0));
 }
