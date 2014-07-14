@@ -3,6 +3,7 @@
 in vec2 fragTexCoord;
 in vec3 fragVert;
 in vec3 fragNormal;
+noperspective in vec3 dist;
 out vec4 finalColor;
 
 uniform struct Light 
@@ -18,6 +19,9 @@ uniform mat4 Model;
 
 void main() 
 {
+  float nearD = min(min(dist[0],dist[1]),dist[2]);
+  float edgeIntensity = exp2(-1.0*nearD*nearD);
+
   float materialShininess     = 80.0f;
   vec3 materialSpecularColor  = vec3( 1.0, 1.0, 1.0 );
   vec3 cameraPosition = vec3( 2.0, 3.0, -10.0 );
@@ -50,5 +54,5 @@ void main()
     
   //final color (after gamma correction)
   vec3 gamma = vec3(1.0/2.2);
-  finalColor = vec4(pow(linearColor, gamma), surfaceColor.a);
+  finalColor = (edgeIntensity * vec4(0.1,0.1,0.1,1.0)) + ((1.0-edgeIntensity) * vec4(pow(linearColor, gamma), surfaceColor.a));
 }
