@@ -7,6 +7,9 @@
 <shader>
 	<name>wireframe</name>
 </shader>
+<shader>
+	<name>plane_wireframe</name>
+</shader>
 <texture>
 	<name>circle</name>
 	<file>circle.png</file>
@@ -19,9 +22,18 @@
 	<name>cube</name>
 	<file>cube.obj</file>
 </mesh>
+<mesh>
+	<name>plane</name>
+	<file>plane.obj</file>
+</mesh>
 <model>
 	<name>cube</name>
 	<mesh>cube</mesh>
 	<shader>standard</shader>
 	<texture>wooden-crate</texture>
+</model>
+<model>
+	<name>plane</name>
+	<mesh>plane</mesh>
+	<shader>plane_wireframe</shader>
 </model>

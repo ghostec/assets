@@ -1,6 +1,11 @@
 <model>
 	<name>cube</name>
 </model>
+<model>
+	<name>plane</name>
+	<position x="0" y="0" z="0" />
+	<scale x="20" y="20" z="20" />
+</model>
 <light>
 	<position x="-2" y="3" z="2" />
 	<color r="1.0" g="1.0" b="1.0" />
