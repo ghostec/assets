@@ -5,7 +5,7 @@
 	<name>standard</name>
 </shader>
 <shader>
-	<name>standard2</name>
+	<name>wireframe</name>
 </shader>
 <texture>
 	<name>circle</name>
