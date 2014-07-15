@@ -1,0 +1,14 @@
+<texture>
+	<name>red</name>
+	<file>red.png</file>
+</texture>
+<mesh>
+	<name>arrow</name>
+	<file>arrow.obj</file>
+</mesh>
+<model>
+	<name>arrow</name>
+	<mesh>arrow</mesh>
+	<shader>standard</shader>
+	<texture>red</texture>
+</model>
