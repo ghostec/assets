@@ -1,14 +1,37 @@
+<shader>
+  <name>standard_no_light</name>
+</shader>
 <texture>
-	<name>red</name>
-	<file>red.png</file>
+  <name>red</name>
+  <file>red.png</file>
+</texture>
+<texture>
+  <name>blue</name>
+  <file>blue.png</file>
+</texture>
+<texture>
+  <name>green</name>
+  <file>green.png</file>
 </texture>
 <mesh>
-	<name>arrow</name>
-	<file>arrow.obj</file>
+  <name>arrow</name>
+  <file>arrow.obj</file>
 </mesh>
 <model>
-	<name>arrow</name>
-	<mesh>arrow</mesh>
-	<shader>standard</shader>
-	<texture>red</texture>
+  <name>SceneEditor_arrow_x</name>
+  <mesh>arrow</mesh>
+  <shader>standard_no_light</shader>
+  <texture>red</texture>
+</model>
+<model>
+  <name>SceneEditor_arrow_y</name>
+  <mesh>arrow</mesh>
+  <shader>standard_no_light</shader>
+  <texture>blue</texture>
+</model>
+<model>
+  <name>SceneEditor_arrow_z</name>
+  <mesh>arrow</mesh>
+  <shader>standard_no_light</shader>
+  <texture>green</texture>
 </model>
