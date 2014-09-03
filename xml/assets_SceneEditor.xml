@@ -2,6 +2,10 @@
   <name>standard_no_light</name>
 </shader>
 <texture>
+  <name>yellow</name>
+  <file>yellow.png</file>
+</texture>
+<texture>
   <name>red</name>
   <file>red.png</file>
 </texture>
