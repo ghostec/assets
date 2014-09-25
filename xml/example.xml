@@ -1,12 +1,28 @@
 <model>
 	<name>cube</name>
-	<position x="0" y="1" z="0" />
+	<position x="0" y="0" z="0" />
 </model>
 <model>
 	<name>plane</name>
 	<position x="0" y="0" z="0" />
 	<scale x="20" y="20" z="20" />
 </model>
+<sg_node>
+	<name>cube1</name>
+	<model>cube</model>
+	<position x="0" y="0" z="0" />
+</sg_node>
+<sg_node>
+	<name>cube2</name>
+	<model>cube</model>
+	<position x="0" y="0" z="0" />
+</sg_node>
+<sg_node>
+	<name>plane</name>
+	<model>plane</model>
+	<position x="0" y="0" z="0" />
+	<scale x="20" y="20" z="20" />
+</sg_node>
 <light>
 	<position x="-2" y="3" z="2" />
 	<color r="1.0" g="1.0" b="1.0" />
