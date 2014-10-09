@@ -1,8 +1,62 @@
 <body>
-	<sg_node>cube1</sg_node>
+	<sg_node>cube_m1</sg_node>
 </body>
 <body>
-	<sg_node>cube2</sg_node>
+	<sg_node>cube_m2</sg_node>
+</body>
+<body>
+	<sg_node>cube_m3</sg_node>
+</body>
+<body>
+	<sg_node>cube_m4</sg_node>
+</body>
+<body>
+	<sg_node>cube_l1</sg_node>
+</body>
+<body>
+	<sg_node>cube_l2</sg_node>
+</body>
+<body>
+	<sg_node>cube_l3</sg_node>
+</body>
+<body>
+	<sg_node>cube_l4</sg_node>
+</body>
+<body>
+	<sg_node>cube_r1</sg_node>
+</body>
+<body>
+	<sg_node>cube_r2</sg_node>
+</body>
+<body>
+	<sg_node>cube_r3</sg_node>
+</body>
+<body>
+	<sg_node>cube_r4</sg_node>
+</body>
+<body>
+	<sg_node>cube_tl</sg_node>
+</body>
+<body>
+	<sg_node>cube_tlm</sg_node>
+</body>
+<body>
+	<sg_node>cube_trm</sg_node>
+</body>
+<body>
+	<sg_node>cube_tr</sg_node>
+</body>
+<body>
+	<sg_node>cube_falling_r1</sg_node>
+</body>
+<body>
+	<sg_node>cube_falling_r2</sg_node>
+</body>
+<body>
+	<sg_node>cube_falling_l1</sg_node>
+</body>
+<body>
+	<sg_node>cube_falling_l2</sg_node>
 </body>
 <body>
 	<sg_node>plane</sg_node>

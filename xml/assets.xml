@@ -33,12 +33,6 @@
 	<texture>wooden-crate</texture>
 </model>
 <model>
-	<name>cube2</name>
-	<mesh>cube</mesh>
-	<shader>standard</shader>
-	<texture>wooden-crate</texture>
-</model>
-<model>
 	<name>plane</name>
 	<mesh>plane</mesh>
 	<shader>plane_wireframe</shader>

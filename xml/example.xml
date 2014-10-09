@@ -1,21 +1,102 @@
-<model>
-	<name>cube</name>
-	<position x="0" y="0" z="0" />
-</model>
-<model>
-	<name>plane</name>
-	<position x="0" y="0" z="0" />
-	<scale x="20" y="20" z="20" />
-</model>
 <sg_node>
-	<name>cube1</name>
+	<name>cube_m1</name>
 	<model>cube</model>
-	<position x="0" y="0" z="0" />
+	<position x="0" y="1" z="0" />
 </sg_node>
 <sg_node>
-	<name>cube2</name>
+	<name>cube_m2</name>
 	<model>cube</model>
-	<position x="0" y="0" z="0" />
+	<position x="0" y="3" z="0" />
+</sg_node>
+<sg_node>
+	<name>cube_m3</name>
+	<model>cube</model>
+	<position x="0" y="5" z="0" />
+</sg_node>
+<sg_node>
+	<name>cube_m4</name>
+	<model>cube</model>
+	<position x="0" y="7" z="0" />
+</sg_node>
+<sg_node>
+	<name>cube_l1</name>
+	<model>cube</model>
+	<position x="-4" y="1" z="0" />
+</sg_node>
+<sg_node>
+	<name>cube_l2</name>
+	<model>cube</model>
+	<position x="-4" y="3" z="0" />
+</sg_node>
+<sg_node>
+	<name>cube_l3</name>
+	<model>cube</model>
+	<position x="-4" y="5" z="0" />
+</sg_node>
+<sg_node>
+	<name>cube_l4</name>
+	<model>cube</model>
+	<position x="-4" y="7" z="0" />
+</sg_node>
+<sg_node>
+	<name>cube_r1</name>
+	<model>cube</model>
+	<position x="4" y="1" z="0" />
+</sg_node>
+<sg_node>
+	<name>cube_r2</name>
+	<model>cube</model>
+	<position x="4" y="3" z="0" />
+</sg_node>
+<sg_node>
+	<name>cube_r3</name>
+	<model>cube</model>
+	<position x="4" y="5" z="0" />
+</sg_node>
+<sg_node>
+	<name>cube_r4</name>
+	<model>cube</model>
+	<position x="4" y="7" z="0" />
+</sg_node>
+<sg_node>
+	<name>cube_tl</name>
+	<model>cube</model>
+	<position x="-3" y="9" z="0" />
+</sg_node>
+<sg_node>
+	<name>cube_tlm</name>
+	<model>cube</model>
+	<position x="-1" y="9" z="0" />
+</sg_node>
+<sg_node>
+	<name>cube_trm</name>
+	<model>cube</model>
+	<position x="1" y="9" z="0" />
+</sg_node>
+<sg_node>
+	<name>cube_tr</name>
+	<model>cube</model>
+	<position x="3" y="9" z="0" />
+</sg_node>
+<sg_node>
+	<name>cube_falling_r1</name>
+	<model>cube</model>
+	<position x="2" y="30" z="0" />
+</sg_node>
+<sg_node>
+	<name>cube_falling_r2</name>
+	<model>cube</model>
+	<position x="2" y="80" z="0" />
+</sg_node>
+<sg_node>
+	<name>cube_falling_l1</name>
+	<model>cube</model>
+	<position x="-2" y="500" z="0" />
+</sg_node>
+<sg_node>
+	<name>cube_falling_l2</name>
+	<model>cube</model>
+	<position x="-2" y="800" z="0" />
 </sg_node>
 <sg_node>
 	<name>plane</name>
