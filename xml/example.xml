@@ -111,6 +111,6 @@
 	<ambient_coefficient value="0.008" />
 </light>
 <camera>
-	<position x="-2" y="3" z="8" />
+	<position x="2" y="3" z="14" />
 	<target x="0" y="0" z="0" />
 </camera>

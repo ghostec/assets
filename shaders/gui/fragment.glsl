@@ -17,7 +17,7 @@ uniform float opacity;
 uniform sampler2D materialTex;
 uniform mat4 Model;
 
-void main() 
+void main()
 {
   finalColor = texture(materialTex, fragTexCoord);
 }

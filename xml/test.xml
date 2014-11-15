@@ -1,0 +1,131 @@
+<sg_node>
+    <name>cube_m1</name>
+    <model>cube</model>
+    <position x="0.000000" y="1.000000" z="0.000000"/>
+</sg_node>
+
+<sg_node>
+    <name>cube_m2</name>
+    <model>cube</model>
+    <position x="0.000000" y="3.000000" z="0.000000"/>
+</sg_node>
+
+<sg_node>
+    <name>cube_m3</name>
+    <model>cube</model>
+    <position x="0.000000" y="5.000000" z="0.000000"/>
+</sg_node>
+
+<sg_node>
+    <name>cube_m4</name>
+    <model>cube</model>
+    <position x="0.000000" y="7.000000" z="0.000000"/>
+</sg_node>
+
+<sg_node>
+    <name>cube_l1</name>
+    <model>cube</model>
+    <position x="-4.000000" y="1.000000" z="0.000000"/>
+</sg_node>
+
+<sg_node>
+    <name>cube_l2</name>
+    <model>cube</model>
+    <position x="-4.000000" y="3.000000" z="0.000000"/>
+</sg_node>
+
+<sg_node>
+    <name>cube_l3</name>
+    <model>cube</model>
+    <position x="-4.000000" y="5.000000" z="0.000000"/>
+</sg_node>
+
+<sg_node>
+    <name>cube_l4</name>
+    <model>cube</model>
+    <position x="-4.000000" y="7.000000" z="0.000000"/>
+</sg_node>
+
+<sg_node>
+    <name>cube_r1</name>
+    <model>cube</model>
+    <position x="4.000000" y="1.000000" z="0.000000"/>
+</sg_node>
+
+<sg_node>
+    <name>cube_r2</name>
+    <model>cube</model>
+    <position x="4.000000" y="3.000000" z="0.000000"/>
+</sg_node>
+
+<sg_node>
+    <name>cube_r3</name>
+    <model>cube</model>
+    <position x="4.000000" y="5.000000" z="0.000000"/>
+</sg_node>
+
+<sg_node>
+    <name>cube_r4</name>
+    <model>cube</model>
+    <position x="4.495352" y="7.000000" z="0.000000"/>
+</sg_node>
+
+<sg_node>
+    <name>cube_tl</name>
+    <model>cube</model>
+    <position x="-3.000000" y="9.000000" z="0.000000"/>
+</sg_node>
+
+<sg_node>
+    <name>cube_tlm</name>
+    <model>cube</model>
+    <position x="-1.000000" y="9.000000" z="0.000000"/>
+</sg_node>
+
+<sg_node>
+    <name>cube_trm</name>
+    <model>cube</model>
+    <position x="1.000000" y="9.000000" z="0.000000"/>
+</sg_node>
+
+<sg_node>
+    <name>cube_tr</name>
+    <model>cube</model>
+    <position x="3.000000" y="9.000000" z="0.000000"/>
+</sg_node>
+
+<sg_node>
+    <name>cube_falling_r1</name>
+    <model>cube</model>
+    <position x="2.000000" y="30.000000" z="0.000000"/>
+</sg_node>
+
+<sg_node>
+    <name>cube_falling_r2</name>
+    <model>cube</model>
+    <position x="2.000000" y="80.000000" z="0.000000"/>
+</sg_node>
+
+<sg_node>
+    <name>cube_falling_l1</name>
+    <model>cube</model>
+    <position x="-2.000000" y="500.000000" z="0.000000"/>
+</sg_node>
+
+<sg_node>
+    <name>cube_falling_l2</name>
+    <model>cube</model>
+    <position x="-2.000000" y="800.000000" z="0.000000"/>
+</sg_node>
+
+<sg_node>
+    <name>plane</name>
+    <model>plane</model>
+    <position x="0.000000" y="0.000000" z="0.000000"/>
+</sg_node>
+
+<sg_node>
+    <name>copycube_r1</name>
+    <model>cube</model>
+    <position x="6.247303" y="1.000000" z="0.000000"/>
+</sg_node>

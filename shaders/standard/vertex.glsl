@@ -16,11 +16,11 @@ uniform struct Camera
   mat4 proj;
 } camera;
 
-void main() 
+void main()
 {
   // Pass some variables to the fragment shader
   fragTexCoord = vec2( vUV.x, vUV.y );
   fragNormal = vNormal;
-  fragVert = vPosition; 
+  fragVert = vPosition;
   gl_Position = camera.proj * camera.view * Model * vec4(vPosition,1.0);
 }

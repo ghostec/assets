@@ -5,7 +5,7 @@ in vec3 fragVert;
 in vec3 fragNormal;
 out vec4 finalColor;
 
-uniform struct Light 
+uniform struct Light
 {
    vec3 position;
    vec3 intensities;
@@ -16,7 +16,7 @@ uniform struct Light
 uniform sampler2D materialTex;
 uniform mat4 Model;
 
-void main() 
+void main()
 {
   float materialShininess     = 80.0f;
   vec3 materialSpecularColor  = vec3( 1.0, 1.0, 1.0 );
@@ -27,27 +27,27 @@ void main()
   vec4 surfaceColor = texture(materialTex, fragTexCoord);
   vec3 surfaceToLight = normalize(lights[0].position - surfacePos);
   vec3 surfaceToCamera = normalize(cameraPosition - surfacePos);
-    
+
   //ambient
   vec3 ambient = lights[0].ambientCoefficient * surfaceColor.rgb * lights[0].intensities;
 
   //diffuse
   float diffuseCoefficient = max(0.0, dot(normal, surfaceToLight));
   vec3 diffuse = diffuseCoefficient * surfaceColor.rgb * lights[0].intensities;
-    
+
   //specular
   float specularCoefficient = 0.0;
   if(diffuseCoefficient > 0.0)
-      specularCoefficient = pow(max(0.0, dot(surfaceToCamera, reflect(-surfaceToLight, normal))), materialShininess);
+    specularCoefficient = pow(max(0.0, dot(surfaceToCamera, reflect(-surfaceToLight, normal))), materialShininess);
   vec3 specular = specularCoefficient * materialSpecularColor * lights[0].intensities;
-    
+
   //attenuation
   float distanceToLight = length(lights[0].position - surfacePos);
   float attenuation = 1.0 / (1.0 + lights[0].attenuation * pow(distanceToLight, 2));
 
   //linear color (color before gamma correction)
   vec3 linearColor = ambient + attenuation*(diffuse + specular);
-    
+
   //final color (after gamma correction)
   vec3 gamma = vec3(1.0/2.2);
   finalColor = vec4(pow(linearColor, gamma), surfaceColor.a);
