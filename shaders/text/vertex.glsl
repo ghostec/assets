@@ -5,8 +5,10 @@ in vec2 vUV;
 
 out vec2 fragUV;
 
+uniform mat4 Model;
+
 void main()
 {
   fragUV = vUV;
-  gl_Position = vec4(vPosition.xy, 0, 1);
+  gl_Position = Model * vec4(vPosition.xy, 0, 1);
 }

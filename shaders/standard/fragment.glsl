@@ -13,7 +13,17 @@ uniform struct Light
    float ambientCoefficient;
 } lights[10];
 
-uniform sampler2D materialTex;
+struct Material
+{
+  // diffuse_color
+  // specular color
+  bool activate_texture, activate_color;
+  sampler2D texture;
+  vec4 color;
+};
+
+uniform Material material;
+
 uniform mat4 Model;
 
 void main()
@@ -24,7 +34,9 @@ void main()
 
   vec3 normal = normalize(transpose(inverse(mat3(Model))) * fragNormal);
   vec3 surfacePos = vec3(Model * vec4(fragVert, 1));
-  vec4 surfaceColor = texture(materialTex, fragTexCoord);
+  vec4 surfaceColor;
+  if( material.activate_texture ) surfaceColor = texture(material.texture, fragTexCoord);
+  if( material.activate_color ) surfaceColor *= material.color;
   vec3 surfaceToLight = normalize(lights[0].position - surfacePos);
   vec3 surfaceToCamera = normalize(cameraPosition - surfacePos);
 

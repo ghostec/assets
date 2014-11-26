@@ -18,6 +18,10 @@
 	<name>wooden-crate</name>
 	<file>wooden-crate.jpg</file>
 </texture>
+<material>
+	<name>wooden-crate</name>
+	<texture>wooden-crate</texture>
+</material>
 <mesh>
 	<name>cube</name>
 	<file>cube.obj</file>
@@ -30,7 +34,7 @@
 	<name>cube</name>
 	<mesh>cube</mesh>
 	<shader>standard</shader>
-	<texture>wooden-crate</texture>
+	<material>wooden-crate</material>
 </model>
 <model>
 	<name>plane</name>

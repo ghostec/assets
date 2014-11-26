@@ -17,6 +17,22 @@
   <name>green</name>
   <file>green.png</file>
 </texture>
+<material>
+  <name>yellow</name>
+  <texture>yellow</texture>
+</material>
+<material>
+  <name>red</name>
+  <texture>red</texture>
+</material>
+<material>
+  <name>green</name>
+  <texture>green</texture>
+</material>
+<material>
+  <name>blue</name>
+  <texture>blue</texture>
+</material>
 <mesh>
   <name>arrow</name>
   <file>arrow.obj</file>
@@ -25,17 +41,17 @@
   <name>SceneEditor_arrow_x</name>
   <mesh>arrow</mesh>
   <shader>standard_no_light</shader>
-  <texture>red</texture>
+  <material>red</material>
 </model>
 <model>
   <name>SceneEditor_arrow_y</name>
   <mesh>arrow</mesh>
   <shader>standard_no_light</shader>
-  <texture>blue</texture>
+  <material>blue</material>
 </model>
 <model>
   <name>SceneEditor_arrow_z</name>
   <mesh>arrow</mesh>
   <shader>standard_no_light</shader>
-  <texture>green</texture>
+  <material>green</material>
 </model>
